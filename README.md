@@ -4,12 +4,13 @@
 
 # iLagou
 
-Aplicativo que prevê riscos de alagamento em rotas e notifica o usuário. 
+O iLagou é um sistema de previsão de alagamentos para rotas na cidade do Recife. Ele utiliza dados de sensores pluviométricos, previsão do tempo, maré e geocodificação para calcular o risco de alagamento em trajetos definidos pelo usuário (por endereço ou CEP). O objetivo é ajudar pessoas a planejarem rotas mais seguras em dias de chuva, evitando áreas de risco.
 
 ## Funcionalidades principais
-- Gerenciamento de rotas (adicionar, editar, remover).
-- Consulta de risco por rota via API (`POST /api/v1/risk`).
-- Sistema de notificações com toasts e lista de alertas.
+- Cálculo de risco de alagamento entre dois pontos (endereços ou CEPs)
+- Consulta de sensores pluviométricos
+- Análise do nível da maré
+- Identificação de pontos críticos e geração de alertas 
 
 ## Estrutura importante do projeto
 - App & navegação
